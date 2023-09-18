@@ -1,0 +1,140 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  margin: 20px;
+}
+
+.login-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 330px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.todo-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.todo-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.todo-input {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}
+
+.todo-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  width: 300px;
+}
+
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.todo-text {
+  flex-grow: 1;
+  font-size: 16px;
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-button.update {
+  background-color: #28a745;
+  position:fixed;
+  right: 36.3%;
+
+}
+
+.todo-button.edit {
+  background-color: #ffc107;
+  position:fixed;
+  right: 36.4%;
+
+
+}
+
+.todo-button.delete {
+  background-color: #dc3545;
+  position:fixed;
+  right: 33%;
+}
+
+.todo-button.new {
+  width: 160px;
+  left: 18%;
+  position: relative;
+}
+
+.todo-input.first {
+  position: relative;
+  left: 18%;
+  width: 280px;
+}

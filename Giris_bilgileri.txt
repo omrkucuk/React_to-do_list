@@ -1,0 +1,2 @@
+Kullanıcı adı: admin 
+Parola: 12345
