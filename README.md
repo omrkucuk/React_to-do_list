@@ -7,3 +7,4 @@ Sil butonu ile siliyoruz
 Düzenle butonu ile Güncelliyoruz
 Aktivitelerin sonunda bulunan check butonu ile de tamamladığımız aktivitenin üstünü çizebiliyoruz
 Kodlar src klasörünün altında bulunmaktadır
+Projeye ait ekran görüntüleride yer almaktadır
